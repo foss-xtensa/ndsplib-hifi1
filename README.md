@@ -1,5 +1,6 @@
-# HiFi_1_NDSP
-NatureDSP Library for HiFi1 DSP cores
+# HiFi1_NDSP
+NatureDSP Library for HiFi1 and HiFi1s DSP cores
+Note: Both HiFi1 and HiFi1s have single repository
 
 # The repo is organized as follows.
 
@@ -7,21 +8,17 @@ NatureDSP Library for HiFi1 DSP cores
   * Last stable release version of the NDSP containing two xws files.
 
   * An xws each, for the library-kernels and the test-driver.
-    Ex : HiFi1_VFPU_Library_v1_1_0.xws & HiFi1_VFPU_Demo_v1_1_0.xws
+    Ex : HiFi1_VFPU_Library_v1_2_0.xws & HiFi1_VFPU_Demo_v1_2_0.xws
 
   * Building and executing the xws in Xtensa Xplorer is described in the API Reference Document. 
   * Detailed release documentation can be extracted from lib.xws/doc folder.
 
-### Release v1.1.0 Brief: 
-  * Release Date : 30-Oct-2022.  
-  * This release contains numerous kernels that are optimized for either performance or code size, 
-    for the updated HiFi 1 core in RI-2022.9 tool chain.
-  * This update also includes optimizations for the LP (Low latency FMA/MAC, Low Power) version of the 
-    HiFi1 core available in RI-2022.9 tools and onwards. 
-  * The source code is protected such that HiFi1 NDSP Library is backward compatible with the HiFi1 core 
-    with older hardware versions (Pre LX7.1.9 HW versions). 
-    The same source code can be built for both HiFi1 cores, with and without LP option enabled. 
-    
+### Release v1.2.0 Brief: 
+  * Release Date : March-2024.  
+  * The source code has been updated to make it compatible with RJ-2024.3 tool chain.
+  * Verification & testing has been done with a very limited number of HiFi1/1s cores,  RJ-2024.3 tool chain (LX8.0.3).
+  * Sanity testing has been done for backward compatibility on xt-clang using RI-2023.11 tool chain (LX7.1.10) cores.     
+  * The same source code can be built for both HiFi1/1s cores, with and without LP option enabled.
 
 ## NDSP_HiFi1
 This contains the source code along with make files that will build in linux environment.  
