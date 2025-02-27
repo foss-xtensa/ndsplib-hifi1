@@ -1,11 +1,11 @@
 # How to Build and Run the Source Code in Linux environment
-  * Get the latest or required version of HiFi1/HiFi1s NDSP Code from GitHub  
+  * Get the latest or required version of HiFi 1/1s NDSP Code from GitHub  
   * https://github.com/foss-xtensa/ndsplib-hifi1
   * Unzip or extract to the destination directory. 
 
 ## The source code is organized as follows.
   * **build** - contains the make file 
-  * **library** - contains the optimized kernel functions for the HiFi1/HiFi1s core 
+  * **library** - contains the optimized kernel functions for the HiFi 1/1s core 
   * **testdriver** - contains the demo driver code to tun the library   
 
 ### It is assumed that the required HiFi core configurations and the Xtensa toolchain are set installed in the Linux environment.
