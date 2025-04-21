@@ -7,12 +7,12 @@ Note: Both HiFi 1 and HiFi 1s have single repository
 ## xws:
   * Last stable release version of the NDSP containing two xws files.
   * An xws each, for the library-kernels and the test-driver.
-    Ex : HiFi1_VFPU_Library_v190.xws & HiFi1_VFPU_Demo_v190.xws
+    Ex : HiFi1s_VFPU_library_v200.xws & HiFi1s_VFPU_demo_v200.xws
   * Building and executing the xws in Xtensa Xplorer is described in the API Reference Document. 
   * Detailed release documentation can be extracted from lib.xws/doc folder.
 
-### Release v1.9.0 Brief: 
-  * Release Date : Feb-2025.  
+### Release v2.0.0 Brief: 
+  * Release Date : Apr-2025.  
   * The source code has been updated to make it compatible with RJ-2024.4 tool chain.
   * Verification & testing has been done with a very limited number of HiFi 1/1s cores,  RJ-2024.4 tool chain (LX8.0.4).
   * The same source code can be built for both HiFi1/1s cores, with and without LP option enabled.
